@@ -93,7 +93,7 @@ const VoiceToText = () => {
           value={editableTranscript}
           onChange={(e) => setEditableTranscript(e.target.value)}
           rows={6}
-          className="shadow-lg shadow-white focus:shadow-xl focus:shadow-yellow-300 border-2 border-white rounded-3xl placeholder-slate-500 p-5 focus:border-yellow-500 focus:outline-none bg-slate-200 w-5/6 md:w-4/6 lg:w-3/6"
+          className="text-slate-950 shadow-lg shadow-white focus:shadow-xl focus:shadow-yellow-300 border-2 border-white rounded-3xl placeholder-slate-500 p-5 focus:border-yellow-500 focus:outline-none bg-slate-200 w-5/6 md:w-4/6 lg:w-3/6"
           placeholder={` ${
             isListening
               ? "Start Speaking..."
