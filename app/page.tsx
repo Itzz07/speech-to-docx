@@ -1,7 +1,6 @@
 'use client'
 
-import HomeView from "./components/HomeView";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
   const router = useRouter();

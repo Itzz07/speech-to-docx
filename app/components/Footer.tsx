@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
 
   return (
     <div className="max-w-6xl mx-auto space-y-16 px-6 py-16 text-slate-100 2xl:px-0">
